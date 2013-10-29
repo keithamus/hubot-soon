@@ -1,0 +1,23 @@
+{
+  "name": "hubot-soon",
+  "version": "1.0.0",
+  "description": "A hubot script for showing a 'SOON' image when someone says 'soon'",
+  "main": "soon.coffee",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/keithamus/hubot-soon.git"
+  },
+  "keywords": [
+    "hubot",
+    "soon",
+    "meme"
+  ],
+  "author": "Keith Cirkel <https://github.com/keithamus>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keithamus/hubot-soon/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6"
+  }
+}
