@@ -48,6 +48,8 @@ images = [
   "http://media.giphy.com/media/uf6z9MY3iCdSE/giphy.gif"
 ]
 
+images = images.concat process.env.HUBOT_MORE_SOON_IMAGES.split ',' if process.env.HUBOT_MORE_SOON_IMAGES
+
 module.exports = (robot) ->
   robot.hear /\bso[o]+n\b/i, (msg) ->
     msg.send msg.random images
